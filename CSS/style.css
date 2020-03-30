@@ -1,0 +1,118 @@
+body {
+  margin: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#titulo-site{
+    font-size: 14px;
+}
+
+header img {
+    width: 80px;
+}
+
+header *{
+    display: inline-block;
+}
+
+header{
+    border-bottom: 1px solid black;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header nav ul li{
+    list-style-type: none;
+    margin: 0px;
+    width: 170px;
+}
+
+#banner {
+  text-align: center;
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  color: white;
+  font-family: sans-serif;
+
+}
+
+#banner p{
+  padding-top: 300px;
+  margin-bottom: 10px;
+  margin: 15px;
+}
+
+#banner h1{
+  font-size: 35px;
+  margin-top: 0px;
+}
+
+#banner button{
+  border-radius: 25px;
+  border-style: none;
+  padding: 15px 30px;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+#banner button:hover{
+  background-color: purple;
+  color: #fff;
+}
+
+.caixa{
+  width: 360px;
+  height: 260px;
+  background-color: red;
+  display: inline-block;
+  margin: 20px;
+  background-size: cover;
+}
+
+#produtos {
+  text-align: center;
+  margin-top: 18px;
+}
+
+#caixa1 {
+  background-image: url(../img/product-1.jpg)
+}
+
+#caixa2 {
+  background-image: url(../img/product-2.jpg)
+}
+
+#caixa3 {
+  background-image: url(../img/product-3.jpg)
+}
+
+#caixa4 {
+  background-image: url(../img/product-4.jpg)
+}
+
+#caixa5 {
+  background-image: url(../img/product-5.jpg)
+}
+
+#caixa6 {
+  background-image: url(../img/product-6.jpg)
+}
+
+footer {
+  font-family:"arial";
+  text-align: center;
+  color: white;
+  background-color: #5f4a90;
+  height: 65px;
+}
+
+footer p {
+
+  padding-top: 26px;
+}

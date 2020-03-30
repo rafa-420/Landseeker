@@ -1,0 +1,103 @@
+body {
+  margin: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#titulo-site{
+    font-size: 14px;
+
+}
+
+header img {
+    width: 80px;
+}
+
+header *{
+    display: inline-block;
+}
+
+header{
+    border-bottom: 1px solid black;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header nav ul li{
+    list-style-type: none;
+    margin: 0px;
+    width: 170px;
+}
+
+#formulario {
+  text-align: center;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no repeat;
+  background-size: cover;
+  margin-bottom: -17px;
+  height: 550px;
+
+}
+
+#contato {
+  background-color: rgba(255,255,255,0.8);
+  height: 400px;
+  width: 400px;
+  display: inline-block;
+  margin-top: 65px;
+  padding-top: 20px;
+  border-radius: 30px;
+  border: solid 1px;
+  border-color: #5f4a90;
+
+}
+
+#contatoform {
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 50px;
+  font-family: "arial";
+
+}
+
+.camposdados {
+  border-radius: 30px;
+  border-color: #5f4a90;
+  height: 20px;
+  width: 295px;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#camposend {
+  margin-left: 35px;
+  border-radius: 30px;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  background-color: #5f4a90;
+  border: hidden;
+
+}
+
+#camposdados2 {
+  height: 110px;
+}
+
+footer {
+  font-family:"arial";
+  text-align: center;
+  color: white;
+  background-color: #5f4a90;
+  height: 65px;
+
+}
+
+footer p {
+  padding-top: 24px;
+}
